@@ -5,7 +5,7 @@ float temp;
 
 int main(void)
 {
-    printf("Como voce esta se sentindo?\n");
+    printf("Voce se sente bem?\n");
     printf("Responda S para sim e N para nao.\n");
     scanf("%c", &r1);
     if (r1 == 'S' || r1 == 's')
@@ -14,7 +14,7 @@ int main(void)
     }
     else if (r1 == 'N' || r1 == 'n')
     {
-        printf("Voce se sente bem?\n");
+        printf("Voce sente dor?\n");
         printf("Responda S para sim e N para nao.\n");
         fflush(stdin);
         scanf("%c", &r2);
